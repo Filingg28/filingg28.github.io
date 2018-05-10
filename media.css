@@ -225,11 +225,10 @@
     }
 
     .topnav.responsive {
-        position: relative;
 
+        position: relative;
         top: 220px;
         left: -100px;
-
 
     }
 
