@@ -1,0 +1,536 @@
+
+
+@media screen and (max-width: 1273px) {
+    .about_us img {
+        width: 400px;
+        height: 550px;
+    }
+    .about {
+        width: 350px;
+        padding: 50px 60px;
+    }
+
+    .about h1 {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+
+
+    .about_us {
+        height: 800px;
+    }
+}
+@media screen and (max-width: 1165px) {
+    nav {
+        margin-left: 12%;
+    }
+    .focuses .focus {
+        width: 200px;
+    }
+    .focuses {
+        justify-content: space-around;
+    }
+    .slides img {
+        width: 300px;
+    }
+
+    .txt_slide {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 0;
+        margin-left: -10px;
+    }
+    .slides h2 {
+        margin-top: 5px;
+        font-size: 1.6em;
+    }
+    .melina {
+        margin-bottom: 0;
+
+    }
+    .testimonial_wrapper {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width: 1104px) {
+    nav {
+        margin-left: 3%;
+    }
+
+    .header_logo {
+        margin-left: 5%;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+    .item_1,.item_2,.item_3 {
+        margin: 0 50px;
+    }
+    .portfolio_gallery {
+        justify-content: center;
+        width: auto;
+    }
+    .portfolio_gallery> div{
+        margin: 20px 20px;
+    }
+
+    .left, .right {
+        width: 400px;
+        height: 250px;
+        padding-top: 40px;
+        padding-left: 70px;
+        bottom: 30px;
+    }
+    .left {
+        left: -180px;
+    }
+    .right {
+        right: -180px;
+    }
+
+    .pricing_item_1, .pricing_item_2, .pricing_item_3 {
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .wrapper1 {
+        flex-direction: column;
+    }
+    .about_us {
+        height: auto;
+    }
+    .about {
+        position: initial;
+        margin-top: 20px;
+        width: 60%;
+
+    }
+
+    .our_team .photo {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+
+
+    }
+    .our_team .photo div{
+        margin-bottom: 30px;
+    }
+    .our_team .photo div::after{
+        display: none;
+    }
+
+    .about_bennet {
+        justify-content: center;
+    }
+
+    .social_panel {
+        margin-top: 20px;
+    }
+
+    .image_steps {
+        width: 80%;
+    }
+    .photo_steps img {
+        width: 100%;
+    }
+
+    .left {
+        left: 0;
+    }
+    .right {
+        right: 0;
+    }
+
+    .pricing_items {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .pricing_item_1, .pricing_item_2, .pricing_item_3 {
+        padding: 0 70px;
+        margin-bottom: 30px;
+    }
+
+    .testimonial_wrapper {
+        width: 800px;
+    }
+
+    .resons > div {
+        margin: 30px 0;
+    }
+}
+@media screen and (max-width: 864px) {
+    .slides {
+        flex-direction: column;
+    }
+
+    .txt_slide {
+        padding: 10px 10px;
+        width: 80%;
+    }
+
+    .testimonial_wrapper {
+        width: 700px;
+    }
+    .testimonial_wrapper img {
+        width: 40%;
+    }
+    .blog_content {
+        flex-wrap: wrap;
+    }
+    .block_left, .block_right {
+        flex-basis: auto;
+    }
+
+    .blog_bg  {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .blog_bg img {
+        width: 100%;
+        heihgt: auto;
+    }
+    .damian {
+        margin-bottom: 50px;
+    }
+
+    .block_under {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 936px) {
+    .topnav a{
+        display: none;
+    }
+
+
+    .topnav .icon {
+
+        display: block;
+        float: right;
+        color: black;
+        font-size: 20px;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .topnav.responsive {
+        position: relative;
+
+        top: 220px;
+        left: -100px;
+
+
+    }
+
+    .header.topnav.responsive {
+        height: 340px;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        top: -50px;
+        right: -100px;
+        color: black;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .topnav.responsive a:hover{
+        color: crimson;
+    }
+
+    .focuses .focus {
+        width: 150px;
+    }
+
+    .text_bennet {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .block_one.responsive {
+        padding-top: 400px;
+    }
+
+    .block_one h1 {
+        font-size: 2em;
+    }
+
+    .focuses {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .focuses .focus {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .our_focus {
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .text_bennet {
+        margin: 0 10px;
+    }
+
+    .icon_wrapper {
+        height: auto;
+    }
+
+    .photo_steps img {
+        display: none;
+    }
+
+    .left, .right {
+        position: relative;
+        margin: 0;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 15px;
+        height: auto;
+    }
+    .photo_steps {
+        height: auto;
+    }
+    .image_steps >div {
+        margin-bottom: 20px;
+
+    }
+    .image_steps {
+        width: 90%;
+    }
+    .text_steps h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .text_steps p {
+        font-size: 1em;
+    }
+    .text_steps {
+        margin-bottom: 30px;
+    }
+
+    .testimonial_wrapper {
+        width: 400px;
+    }
+    .testimonial_wrapper img {
+        width: 70%;
+    }
+
+    .form_mes {
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+    .footer >div {
+        align-items: center;
+        text-align: center;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 476px) {
+    .price {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+    .item_1,.item_2,.item_3 {
+        margin: 30px 0;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .about_us img {
+        width: 300px;
+        height: 450px;
+    }
+    .text1 h1 {
+        font-size: 2em;
+    }
+    .text1 p {
+        font-size: 16px;
+    }
+    .focuses .focus {
+        width: 80%;
+    }
+
+    .wrapper3 h2{
+        font-size: 1.5em;
+    }
+    .portfolio_wrapper {
+
+        text-align: center;
+        width: auto;
+    }
+    .portfolio_gallery {
+        flex-wrap :nowrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .portfolio_gallery > div:after {
+        position: absolute;
+        content: 'Project One';
+        padding-top: 20px;
+        text-align: center;
+
+        left: 1px;
+        height: 50px;
+        bottom: 4px;
+        background: url("img/Lines_copy.png") white no-repeat 50% 0;
+        background-size: contain;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+
+    }
+    .icon_wrapper {
+
+    }
+
+    .icon_block {
+        height: auto;
+    }
+    .our_team h1 {
+        font-size: 2em;
+    }
+    .our_team p {
+        font-size: 1em;
+    }
+
+    .pricing_text h1 {
+        font-size: 2em;
+    }
+    .pricing_item_1, .pricing_item_2, .pricing_item_3 {
+        padding: 0 30px;
+    }
+
+    .testimonial_wrapper {
+        width: 300px;
+    }
+    .testimonial_wrapper h1 {
+        font-size: 2em;
+    }
+    .form_sub {
+        flex-wrap: wrap;
+    }
+
+    .form_sub input {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-bottom: 20px;
+    }
+    .form_sub button {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .portfolio_gallery img {
+        width: 70%;
+    }
+    .wrapper3 {
+        text-align: center;
+    }
+    .start button {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 365px) {
+    .testimonial_wrapper {
+        width: 200px;
+    }
+    .txt_slide {
+        margin: 0;
+        width: 200px;
+        padding-right: 5px;
+    }
+
+    .select_text h1 {
+        font-size: 2em;
+    }
+    .select_text p {
+        font-size: 1em;
+    }
+
+    .touch_wrapper h1{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .about_us .photo1 img {
+        display: none;
+    }
+
+    .our_team .team_wrapper {
+        width: 100%;
+    }
+
+    .social_panel {
+        margin: 10px auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social_panel ul{
+        border: none;
+        padding: 0;
+    }
+    .portfolio h1 {
+        font-size: 1.5em;
+    }
+
+    .block_one button {
+        width: 100%;
+    }
+
+    .about_us .about {
+        padding: 10px 10px;
+        width: 90%;
+    }
+
+    .pricing_item_1, .pricing_item_2, .pricing_item_3 {
+        padding: 0 10px;
+    }
+
+    .pricing_text p {
+        font-size: 1em;
+    }
+
+    .pricing_wrapper {
+        padding-top: 50px;
+    }
+}
+
