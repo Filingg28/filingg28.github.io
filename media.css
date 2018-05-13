@@ -33,6 +33,7 @@
         width: 200px;
     }
     .focuses {
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
     .slides img {
@@ -74,6 +75,8 @@
         margin: 0 50px;
     }
     .portfolio_gallery {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         width: 100%;
     }
@@ -101,6 +104,9 @@
 }
 @media screen and (max-width: 950px) {
     .wrapper1 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .about_us {
@@ -114,6 +120,7 @@
     }
 
     .our_team .photo {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-bottom: 0;
 
@@ -127,6 +134,8 @@
     }
 
     .about_bennet {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -149,7 +158,9 @@
     }
 
     .pricing_items {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
@@ -169,6 +180,9 @@
 }
 @media screen and (max-width: 864px) {
     .slides {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -184,9 +198,11 @@
         width: 40%;
     }
     .blog_content {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
     .block_left, .block_right {
+        -ms-flex-preferred-size: auto;
         flex-basis: auto;
     }
 
@@ -272,7 +288,12 @@
     }
 
     .focuses {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
 
     }
@@ -337,13 +358,20 @@
     }
 
     .form_mes {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
     .footer {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .footer >div {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         text-align: center;
         height: 150px;
@@ -351,8 +379,13 @@
 }
 @media screen and (max-width: 476px) {
     .price {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 50px;
 
@@ -388,7 +421,11 @@
         width: auto;
     }
     .portfolio_gallery {
+        -ms-flex-wrap :wrap;
         flex-wrap :wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: 100%;
     }
@@ -406,9 +443,14 @@
         font-family: 'Poppins', sans-serif;
         font-size: 18px;
         -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
         transition: all 0.4s;
         opacity: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
 
     }
@@ -440,6 +482,7 @@
         font-size: 2em;
     }
     .form_sub {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
@@ -497,7 +540,10 @@
 
     .social_panel {
         margin: 10px auto;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -530,4 +576,3 @@
         padding-top: 50px;
     }
 }
-
