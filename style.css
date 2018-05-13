@@ -67,6 +67,7 @@ main {
     padding-bottom: 180px;
     text-align: center;
     min-width: 100%;
+
 }
 
 .block_one h1 {
@@ -926,7 +927,7 @@ button:hover {
     justify-content: center;
 }
 .select_wrapper {
-    max-width: 1150px;
+    width: 1150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -953,6 +954,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
 }
 
 
@@ -1000,8 +1002,7 @@ button:hover {
 }
 
 .blog_wrapper {
-    max-width: 1150px;
-
+   width: 1150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1025,6 +1026,7 @@ button:hover {
 .blog_content {
     display: flex;
     justify-content: space-between;
+    
     width: 100%;
     margin-top: 50px;
   }
@@ -1032,11 +1034,13 @@ button:hover {
 
 .blog_bg {
     position: relative;
+    display: flex;
+    justify-content: center;
 
 }
 .blog_bg img {
-    max-width: 100%;
-    height: auto;
+    width: 555px;
+    height: 444px;
 }
 .blog_bg .sp1{
     position: absolute;
@@ -1071,7 +1075,9 @@ button:hover {
 .block_under {
     background: white;
     padding: 30px 50px;
-    border-bottom: 3px solid #fc5f45
+    border-bottom: 3px solid #fc5f45;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .block_under h3 {
@@ -1082,6 +1088,8 @@ button:hover {
 .damian {
     background: white;
     padding: 30px 35px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .damian h3 {
     font-family: 'Poppins', sans-serif;

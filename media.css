@@ -75,7 +75,7 @@
     }
     .portfolio_gallery {
         justify-content: center;
-        width: auto;
+        width: 100%;
     }
     .portfolio_gallery> div{
         margin: 20px 20px;
@@ -388,7 +388,7 @@
         width: auto;
     }
     .portfolio_gallery {
-        flex-wrap :nowrap;
+        flex-wrap :wrap;
         flex-direction: column;
         width: 100%;
     }
@@ -454,9 +454,7 @@
     }
 }
 @media screen and (max-width: 400px) {
-    .portfolio_gallery img {
-        width: 70%;
-    }
+
     .wrapper3 {
         text-align: center;
     }
