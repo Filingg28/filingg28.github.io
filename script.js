@@ -46,4 +46,3 @@ for (var i=0; i<div_photo.length; i++)
     };
 }
 
-

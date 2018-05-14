@@ -340,7 +340,7 @@
             <h1>Get in Touch.</h1>
             <p>We understand your requirement and provide quality works.</p>
 
-            <form name="form_message" class="form_mes">
+            <form name="form_message" class="form_mes" id="form">
                 <input type="text"  name="name" placeholder="Your Name" class="input_mes">
                 <input type="text"  name="email" placeholder="Your Email" class="input_mes">
                 <input type="text"  name="subject" placeholder="Subject" class="input_mes">
@@ -392,6 +392,18 @@
                 var id  = $(this).attr('href'),
                     top = $(id).offset().top;
                 $('body,html').animate({scrollTop: top}, 500);
+            });
+            $("#form").submit(function() {
+                $.ajax({
+                    type: "POST",
+                    url: "mail.php",
+                    data: $(this).serialize()
+                }).done(function() {
+                    $(this).find("input").val("");
+                    alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+                    $("#form").trigger("reset");
+                });
+                return false;
             });
         });
     </script>
