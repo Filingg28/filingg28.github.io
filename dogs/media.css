@@ -1,0 +1,346 @@
+@media screen  and (max-width: 1200px) {
+    .slider_family {
+        width: 900px;
+    }
+    .puppies .wrapper {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .info_one {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .about_pet .wrapper {
+        width: 800px;
+    }
+    .about_pet_info > img {
+        display: none !important;
+    }
+
+    .about_pet_info {
+        border: 2px solid #ffcc00;
+    }
+
+    .news_slider {
+        width: 900px;
+    }
+
+    .contacts {
+        left: 10%;
+    }
+
+}
+
+@media screen  and (max-width: 1140px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media screen  and (max-width: 1040px){
+    .menu_block .wrapper , .f_nav .wrapper{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+
+    }
+
+    .menu_block {
+        bottom: -40px;
+    }
+
+    .left_text h2 {
+        text-align: center;
+    }
+
+    .not_found .wrapper {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media screen  and (max-width: 965px) {
+    .news_slider {
+        width: 600px;
+    }
+
+    .contacts {
+        left: 2%;
+    }
+}
+@media screen  and (max-width: 956px) {
+    .slider_family {
+        width: 600px;
+    }
+    .puppies .left_text {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen  and (max-width: 933px) {
+    .about_breed .wrapper {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .about_pet .wrapper {
+        width: 500px;
+    }
+
+    .photo_pet img {
+        width: 100%;
+    }
+
+    .contacts {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 600px;
+        left: 14%;
+        top: 3%;
+    }
+
+    .contacts_left {
+        padding: 0 40px;
+    }
+    .contacts_right {
+        padding: 0 40px;
+    }
+}
+
+@media screen  and (max-width: 872px) {
+    .answers_content {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .answers_content > div {
+        margin: 25px 25px !important;
+    }
+
+    .no_puppy .wrapper {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen  and (max-width: 750px) {
+    .sweet_puppy {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .puppies_slider {
+        width: 500px;
+    }
+
+    .buy_dog {
+        bottom: -20px;
+        left: 25%;
+    }
+}
+
+@media screen  and (max-width: 712px) {
+    .menu li a {
+        padding: 0 5px !important;
+    }
+
+    .txt_one {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contacts {
+        width: 320px;
+        left: 20%;
+    }
+
+    #map {
+        height: 800px;
+    }
+
+    .contacts_left, .contacts_right {
+        padding: 0 15px;
+    }
+}
+
+@media screen  and (max-width: 655px) {
+    .slider_family {
+        width: 400px;
+    }
+    .news_slider {
+        width: 320px;
+    }
+}
+
+@media screen  and (max-width: 610px) {
+    .menu_block {
+        bottom: -90px !important;
+        display: none;
+    }
+    .open_menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .f_nav {
+        display: none;
+    }
+
+    .character_txt {
+        width: auto;
+    }
+    .character_text {
+        background: none;
+        width: auto;
+    }
+    .character_text p:after {
+        display: none;
+    }
+
+    .img_two {
+        right: 0;
+        top: 0;
+    }
+
+    .family_menu span {
+        margin: 0 10px;
+    }
+    .about_pet .wrapper {
+        width: 90%;
+    }
+
+    .found_video video {
+        width: 320px;
+    }
+
+    .fount_text img {
+        width: 300px;
+    }
+}
+
+@media screen  and (max-width: 511px) {
+    .acquaint_txt {
+        background: none;
+    }
+
+    .acquaint_txt:after {
+        display: none;
+    }
+    .acquaint_text {
+        text-align: center;
+    }
+
+    .video_2 {
+        width: 300px;
+    }
+    .video_4 {
+        width: 300px;
+    }
+    .bg_grid_one {
+        left: 5%;
+    }
+
+    .character_txt {
+        text-align: center;
+    }
+
+    .family_menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .slider_family {
+        width: 300px;
+    }
+    .txt_one h1 {
+        margin: 0;
+    }
+
+    .puppies_slider {
+        width: 320px;
+    }
+
+    .buy_dog {
+        left: 20%;
+    }
+
+    .puppies .left_text img {
+        display: none;
+    }
+
+    .news_header_txt {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+    .news_header_txt h1 {
+        margin: 0;
+    }
+
+    .contacts {
+        width: 100%;
+        left:0;
+    }
+
+    .no_puppy_img img {
+        width: 320px;
+    }
+    .no_puppy_txt {
+        text-align: center;
+    }
+}
+
+
+@media screen  and (max-width: 412px){
+    .main_logo {
+        margin-top: 5vh;
+    }
+
+    .main_text {
+        margin-top: 2vh;
+    }
+
+    .main_text h1 {
+        font-size: 1.5em;
+    }
+
+    .asq {
+        width: 300px;
+    }
+
+    .bg_grid {
+        left: 10%;
+    }
+
+}
