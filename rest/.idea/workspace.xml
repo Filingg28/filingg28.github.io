@@ -39,16 +39,16 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="469">
+                <state relative-caret-position="-558">
                   <caret line="841" column="14" selection-start-line="841" selection-start-column="14" selection-end-line="841" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/styles/media.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
@@ -183,12 +183,12 @@
       <workItem from="1531157643708" duration="984000" />
       <workItem from="1531158662623" duration="1169000" />
       <workItem from="1531243716848" duration="1093000" />
-      <workItem from="1531304071507" duration="11724000" />
+      <workItem from="1531304071507" duration="12002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52259000" />
+    <option name="totallyTimeSpent" value="52537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -694,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="841" column="14" selection-start-line="841" selection-start-column="14" selection-end-line="841" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -732,6 +725,13 @@
             <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="841" column="14" selection-start-line="841" selection-start-column="14" selection-end-line="841" selection-end-column="14" />
         </state>
       </provider>
     </entry>

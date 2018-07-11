@@ -217,11 +217,7 @@
     .number {
         font-size: 3vmax;
     }
-    .arrow {
-        width: 20px;
-        height: 20px;
-        background-size: cover;
-    }
+
 }
 
 @media screen and (max-width: 451px) {
