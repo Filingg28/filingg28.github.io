@@ -24,21 +24,38 @@ li {
     background: url("../img/bg_main.png") 50% 50% no-repeat;
     background-size: cover;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     overflow-x: hidden;
 }
 .main-wrapper {
     width: 94.27vmax;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 
 }
 .header_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -49,10 +66,14 @@ li {
 }
 nav {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
 }
 nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -96,6 +117,8 @@ nav a {
     width: 25px;
     height: 3px;
     display: block;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
     transition: 0.1s;
     position: relative;
     border-radius: 25px;
@@ -106,10 +129,14 @@ nav a {
     width: 25px;
     height: 3px;
     display: block;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     position: absolute;
     left: 0;
     top: 0;
+    -webkit-transform: translateY(7px);
+    -ms-transform: translateY(7px);
     transform: translateY(7px);
     border-radius: 25px;
 }
@@ -120,11 +147,15 @@ nav a {
     width: 25px;
     height: 3px;
     display: block;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     position: absolute;
     left: 0;
     top: 0;
     border-radius: 25px;
+    -webkit-transform: translateY(-7px);
+    -ms-transform: translateY(-7px);
     transform: translateY(-7px);
 }
 
@@ -133,10 +164,14 @@ nav a {
 }
 
 .active_burger span:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .active_burger span:after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 
@@ -147,10 +182,17 @@ nav a {
     left: 0;
     opacity: 0.8;
     width: 40vmax;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
     transform: translateX(-100%);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 .responsive_menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin: 0 auto;
 }
@@ -177,6 +219,8 @@ nav a {
 }
 
 .active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
     transform: translateX(0);
 }
 
@@ -199,7 +243,11 @@ nav a {
 }
 
 .reserv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     background-color:  #f6f4f1;
     position: relative;
@@ -212,14 +260,19 @@ nav a {
     border-radius: 8px;
     overflow: hidden;
     position: relative;
+    -webkit-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
     transform: translateY(-5%);
     z-index: 100;
+    -webkit-box-shadow: 0 8px 11px 1px rgba(0, 0, 0, 0.31);
     box-shadow: 0 8px 11px 1px rgba(0, 0, 0, 0.31);
 
 
 }
 
 .block_top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -262,6 +315,8 @@ nav a {
 }
 
 .block_bot {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -291,11 +346,19 @@ nav a {
     height: 100vh;
     width: 100%;
     background: url("../img/bg2.png") center no-repeat;
+    -webkit-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
     transform: translateY(-10%);
     background-size: cover;
     z-index: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -311,13 +374,21 @@ nav a {
 }
 
 .price_mini_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 86vw;
     background: #fff;
+    -webkit-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
     transform: translateY(-10%);
     position: relative;
     border-radius: 8px;
+    -webkit-box-shadow: 0 8px 11px 1px rgba(0, 0, 0, 0.31);
     box-shadow: 0 8px 11px 1px rgba(0, 0, 0, 0.31);
 
 
@@ -327,20 +398,37 @@ nav a {
 }
 
 .price_mini {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
     transform: translateY(-5%);
 }
 
 .price_top, .price_bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
 }
 
 .lasanga, .pizza, .idlis, .burger_sand {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: center;
     padding: 0 30px;
@@ -368,7 +456,6 @@ nav a {
     width: 100%;
     height: 100vh;
     background: url("../img/pink_bg.png") center no-repeat;
-    -webkit-background-size: cover;
     background-size: cover;
     margin-top: -9%;
 
@@ -376,8 +463,15 @@ nav a {
 
 .food_menu {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #dbefe4), color-stop(50%, #fff));
+    background: -webkit-linear-gradient(bottom left, #dbefe4 50%, #fff 50%);
+    background: -o-linear-gradient(bottom left, #dbefe4 50%, #fff 50%);
     background: linear-gradient(to top right, #dbefe4 50%, #fff 50%);
     background-size: contain;
     padding-bottom: 5vmax;
@@ -388,8 +482,15 @@ nav a {
 
 .food_menu_wrapper {
     width: 86vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding-top: 50px;
 }
@@ -411,6 +512,8 @@ nav a {
     background-color: #fc4263;
     bottom: 0;
     left: 50%;
+    -webkit-transform: translateX(-5vmax);
+    -ms-transform: translateX(-5vmax);
     transform: translateX(-5vmax);
 
 }
@@ -423,12 +526,18 @@ nav a {
 }
 
 .food_price {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 5vmax;
 }
 
 .food_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 2vmax;
 }
@@ -463,7 +572,7 @@ nav a {
     position: absolute;
 }
 .food_left_top_img img, .food_right_top_img img, .food_left_img img, .food_right_img img, .food_left_bottom_img img, .food_right_bottom_img img {
-   width: 100%;
+    width: 100%;
     display: block;
     height: 100%;
 
@@ -484,6 +593,8 @@ nav a {
     width: 8vmax;
     left: 0;
     top: 50%;
+    -webkit-transform: translateY(-5vmax);
+    -ms-transform: translateY(-5vmax);
     transform: translateY(-5vmax);
 }
 
@@ -509,19 +620,37 @@ nav a {
 .locations {
     background: url("../img/location_bg.png") center no-repeat;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding-bottom: 30px;
 }
 
 .locations_block {
     background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     border-radius: 8px;
+    -webkit-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
     transform: translateY(-5%);
 }
 
@@ -545,6 +674,8 @@ nav a {
 }
 
 .location_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -579,6 +710,8 @@ nav a {
     background-size: contain;
     left: -15%;
     top: 50%;
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
     transform: translateY(-15px);
 }
 
@@ -605,6 +738,8 @@ nav a {
     background-size: contain;
     left: -20%;
     top: 50%;
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
     transform: translateY(-15px);
 }
 
@@ -616,6 +751,8 @@ nav a {
 }
 
 .join_form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 7.8vmax;
 }
@@ -644,13 +781,22 @@ nav a {
 
 .contact {
     background-color: #272727;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 6vmax 0;
 }
 
 .soc_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -682,6 +828,8 @@ nav a {
 }
 
 .soc_nav_one ul, .soc_nav_two ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .soc_nav_one ul li {
@@ -712,7 +860,11 @@ nav a {
 footer  {
     background-color: black;
     color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding-bottom: 30px;
 }
