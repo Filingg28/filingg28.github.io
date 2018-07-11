@@ -1,0 +1,284 @@
+@media screen and (max-width: 768px) {
+    .menu nav ul {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+    .main-wrapper {
+        width: 100%;
+    }
+
+    .block_top, .block_bot {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .reserv_two, .reserv_three {
+        text-align: center;
+    }
+
+    .reserv_two img {
+        width: 100%;
+    }
+
+    .reserv_one p {
+        font-size: 16px;
+    }
+    .reserv_one h1 {
+        font-size: 60px;
+    }
+    .reserv_four h1 {
+        font-size: 60px;
+    }
+    .reserv_four p {
+        font-size: 16px;
+    }
+    .reserv_one button {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .spec_text h1 {
+        font-size: 20vmax;
+    }
+
+    .loc_name {
+        font-size: 2vmax;
+    }
+
+    .location_content p {
+        font-size: 1.8vmax;
+    }
+
+    .number {
+        font-size: 1.8vmax;
+    }
+
+    .location_content p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .loc_name:before {
+        width: 2vmax;
+    }
+    .number:before {
+        width: 2vmax;
+        height: 20px;
+        transform: translateY(-10px);
+    }
+
+    .soc_nav_one ul li, .soc_nav_two ul li {
+        font-size: 2.5vmax;
+    }
+
+    .soc_icons .icon {
+        width: 6vmax;
+        height: 6vmax;
+        margin-right: 3vmax;
+    }
+
+    .soc_icons .icon:nth-child(1) {
+        background-size: 4vmax 4vmax;
+    }
+    .soc_icons .icon:nth-child(2) {
+        background-size: 4vmax 4vmax;
+    }
+    .soc_icons .icon:nth-child(3) {
+        background-size: 4vmax 4vmax;
+    }
+    .soc_icons .icon:nth-child(4) {
+        background-size: 4vmax 4vmax;
+    }
+
+    .footer_txt p {
+        font-size: 2.5vmax;
+    }
+
+    .footer_txt p:last-child {
+        font-size: 2vmax;
+    }
+
+}
+@media screen and (max-width: 650px) {
+    .lasanga p, .pizza p, .idlis p, .burger_sand p {
+        font-size: 3vmax;
+    }
+    .lasanga span, .pizza span, .idlis span, .burger_sand span {
+        margin-bottom: 3vh;
+        font-size: 3vmax;
+    }
+    .price_top, .price_bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .lasanga h3, .pizza h3, .idlis h3, .burger_sand h3 {
+        font-size: 3vmax;
+        margin-bottom: 2vh;
+    }
+
+    .price_mini_block img{
+        width: 200px;
+    }
+
+    .price_mini_block {
+        transform: translateY(-5%);
+    }
+
+    .pink {
+        margin-top: -25%;
+    }
+
+    .food_left_top_img {
+        top: -50px;
+    }
+    .food_menu_wrapper h1 {
+        font-size: 15vmax;
+    }
+
+    .food_menu_wrapper {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .food_menu_wrapper > p {
+        font-size: 2vmax;
+        margin-top: 20px;
+    }
+    .food_item h2 {
+        font-size: 2vmax;
+    }
+    .food_item p {
+        font-size: 1.7vmax;
+    }
+    .food_item span {
+        font-size: 5vmax;
+    }
+
+    .food_left_top_img, .food_right_top_img, .food_left_img, .food_right_img, .food_left_bottom_img, .food_right_bottom_img {
+        display: none;
+    }
+    .logo_main h1 {
+        font-size: 30vmax;
+    }
+
+    .main_txt h2 {
+        font-size: 6vmax;
+    }
+
+    .location_content {
+        flex-direction: column;
+    }
+
+    .loc_img {
+        width: 70vmax;
+    }
+
+    .locations_block {
+        transform: translateY(-3%);
+    }
+
+    .location_left, .location_right {
+        padding: 0.5vmax;
+    }
+
+    .locations_block h2 {
+        font-size: 20vmax;
+    }
+    .locations_block h2:after {
+        width: 10vmax;
+    }
+    .loc_name {
+        font-size: 3vmax;
+    }
+
+    .location_content p {
+        font-size: 3vmax;
+    }
+    .number {
+        font-size: 3vmax;
+    }
+    .arrow {
+        width: 20px;
+        height: 20px;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .reserv_three img {
+        width: 100%;
+    }
+
+    .pink {
+        margin-top: -30%;
+    }
+
+    .food_price {
+        flex-direction: column;
+    }
+
+    .food_left {
+        margin-right: 0;
+    }
+    .food_menu_wrapper h1 {
+        font-size: 18vmax;
+    }
+
+    .food_menu_wrapper > p {
+        font-size: 3vmax;
+    }
+    .food_item h2 {
+        font-size: 3vmax;
+    }
+    .food_item p {
+        font-size: 3vmax;
+    }
+    .food_item span {
+        font-size: 6vmax;
+    }
+
+    .loc_name:before {
+        width: 3vmax;
+        left: -20%;
+    }
+    .number:before {
+        width: 3vmax;
+        height: 20px;
+        transform: translateY(-10px);
+    }
+
+    .loc_img {
+        width: 100%;
+    }
+
+    .join_form form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .join_form input {
+        width: 300px;
+        height: 30px;
+    }
+
+    .join {
+        font-size: 4vmax;
+    }
+
+    .join_form button {
+        margin-top: 30px;
+        height: 35px;
+        width: 120px;
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pink {
+        margin-top: -38%;
+    }
+}
