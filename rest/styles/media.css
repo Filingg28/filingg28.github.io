@@ -79,7 +79,7 @@
     }
 
     .soc_nav_one ul li, .soc_nav_two ul li {
-        font-size: 2.5vmax;
+        font-size: 2vmax;
     }
 
     .soc_icons .icon {
@@ -307,4 +307,4 @@
     .pink {
         margin-top: -38%;
     }
-}   
+}

@@ -837,6 +837,10 @@ nav a {
     font-weight: 600;
     font-size: 1.3vmax;
 }
+
+.soc_nav_one ul li:last-child {
+    margin: 0;
+}
 .soc_nav_one ul li a, .soc_nav_two ul li a  {
     color: white;
 }
