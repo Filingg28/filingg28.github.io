@@ -1,0 +1,354 @@
+
+@media screen and (max-width: 1540px){
+    html,body {
+        font-size: 11px;
+    }
+
+    .wrapper {
+        max-width: 1200px;
+    }
+
+    .numb_head p {
+        margin-left: 1rem;
+    }
+
+    .people {
+        width: 280px;
+    }
+
+    .photo_people img {
+        width: 280px;
+    }
+
+
+    .slider, .left_image img {
+        width: 780px !important;
+    }
+
+    .slider_two, .right_column {
+        width: 400px !important
+    }
+
+    .slider_two button {
+        margin-top: 60px;
+    }
+    .form_top input {
+        width: 300px;
+    }
+
+    .block_text_one p {
+        font-size: 1.3rem;
+    }
+
+    .footer_line {
+        bottom: 40px !important;
+    }
+    .slider_two, .right_column p {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+   .wrapper {
+       width: 95%;
+   }
+
+
+
+    .slider_two, .right_column {
+        width: 310px !important
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+    .main_slider {
+        flex-wrap: wrap;
+    }
+
+    .slider, .left_image img, .work, .left_image {
+         width: 100% !important;
+    }
+     .slider_two, .right_column {
+        margin-left: 0;
+         width: 1000px !important;
+    }
+
+    .slider_two button {
+        margin-top: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 1115px) {
+    .work {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left_image img {
+        width: 100%;
+    }
+
+    .left_image {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .slider_two, .right_column {
+        margin-left: 0;
+        width: 800px !important;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .contact_wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .comand_people {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 900px) {
+    html,body {
+        font-size: 8px;
+    }
+
+    footer .footer_line {
+        bottom: 25px !important;
+    }
+
+    .people p {
+        font-size: 1.2rem;
+    }
+
+    .people {
+        padding-bottom: 4rem;
+    }
+
+
+}
+
+@media screen and (max-width: 850px) {
+    .slider_two, .right_column {
+        margin-left: 0;
+        width: 600px !important;
+    }
+}
+@media screen and (max-width: 750px) {
+    .footer_left {
+        margin-right: 1rem;
+    }
+
+    .footer_right .social a:nth-child(4) {
+        margin-right: 0;
+    }
+
+    .contact_footer {
+        flex-direction: column;
+    }
+
+    .work .left_image {
+        width: 100%;
+    }
+    .work .right_column {
+        width: 100%;
+        padding: 1rem 0;
+    }
+}
+@media screen and (max-width: 715px) {
+    .form_top {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    .form_top input[name="name"] {
+        margin-right: 0 !important;
+        margin-bottom: 2rem;
+    }
+    .contact_form input {
+        box-sizing: border-box;
+    }
+    .contact_form input {
+        width: 90% !important;
+    }
+
+    .contact_form textarea {
+       width: 90% !important
+    }
+    .contact_form {
+        width: 100%;
+    }
+
+    .contact_form form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left_image .prev_btn .prev_arrow, .left_image .next_btn .next_arrow {
+        width: 15px;
+        height: 15px;
+    }
+    .left_image .prev_btn {
+        bottom: 3%;
+    }
+    .left_image .next_btn {
+        bottom: 3%;
+    }
+    .contact_form form input,
+    .contact_form form input[type='email'],
+    .contact_form textarea
+    {
+
+        width: 100% !important;
+    }
+
+
+}
+
+@media screen and (max-width: 633px) {
+    .slider_two, .right_column {
+        margin-left: 0;
+        width: 500px !important;
+    }
+}
+@media screen and (max-width: 530px) {
+    .top_content {
+        flex-direction: column;
+    }
+
+    .footer_logo_wrap .logo{
+        justify-content: center;
+    }
+
+    .contact_footer {
+        align-items: center;
+    }
+
+
+
+    footer .mail {
+        margin-bottom: 0;
+    }
+    .slider_two, .right_column {
+        margin-left: 0;
+        width: 320px !important;
+    }
+
+    .footer_left {
+        margin-right: 45px !important;
+    }
+
+
+}
+@media screen and (max-width: 400px) {
+    html,body {
+        font-size: 6px;
+    }
+    .people p {
+        font-size: 1.5rem;
+    }
+    .left_list p {
+        font-size: 1.4rem !important;
+    }
+
+    .footer_left {
+        margin-right: 80px !important;
+    }
+
+    footer .footer_line {
+        bottom: 20px !important;
+    }
+
+    .people {
+        padding-bottom: 5rem;
+        width: 100%;
+    }
+
+    .photo_people img {
+        width: 100%;
+    }
+
+    .block_text_one p {
+        font-size: 1.6rem;
+    }
+
+    .contact_form form input,
+    .contact_form form input[type='email'],
+    .contact_form textarea
+    {
+        font-size: 2rem;
+        padding: 15px 10px;
+        width: 100% !important;
+    }
+
+    .contact_form textarea::-webkit-input-placeholder {
+        font-size: 2rem;
+    }
+    .contact_form textarea:-ms-input-placeholder {
+        font-size: 2rem;
+    }
+    .contact_form textarea::placeholder {
+        font-size: 2rem;
+    }
+    .contact_form form input[type="email"]::-webkit-input-placeholder {
+        font-size: 2rem;
+    }
+    .contact_form form input[type="email"]:-ms-input-placeholder {
+        font-size: 2rem;
+    }
+    .contact_form form input[type="email"]::placeholder {
+        font-size: 2rem;
+    }
+    .form_top input::-webkit-input-placeholder {
+        font-size: 2rem;
+    }
+    .form_top input:-ms-input-placeholder {
+        font-size: 2rem;
+    }
+    .form_top input::placeholder {
+        font-size: 2rem;
+    }
+
+    .right_contact div p, .contact_footer p{
+        font-size: 1.5rem;
+    }
+    .slider .work .right_column p{
+        font-size: 1.5rem !important;
+    }
+
+    .footer_right {
+        margin-right: 45px;
+    }
+
+    .copy {
+        font-size: 1.5rem;
+    }
+
+    .price .wrapper {
+        box-sizing: border-box;
+
+    }
+
+    .contactt .wrapper {
+        box-sizing: border-box;
+    }
+
+
+    .slider_two, .right_column {
+        margin-left: 0;
+        width: 300px !important;
+    }
+
+}
