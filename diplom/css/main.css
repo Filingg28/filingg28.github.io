@@ -1,0 +1,239 @@
+.table-matr-first {
+	border: 1px solid;
+	max-width: 200px;
+	margin-top: 100px;
+}
+
+.top-sost {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	/*justify-content: space-around;*/
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.top-sost > div {
+	border: 1px solid;
+	
+	width: 20px;
+	text-align: center;
+}
+
+.states-null, .states-one, .p1-null, .p1-one {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.states-null input, .states-one input, .p1-null input, .p1-one input {
+	width:20px;
+	border: 1px solid #edc07d;
+	margin-right: 2px;
+}
+
+.states-wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+
+.states {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 2px;
+}
+p {
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.states-null {
+	margin-left: 20px;
+	margin-right: 46px;
+}
+
+.addclass {
+	margin-top: 40px;
+}
+
+
+.p1, .p2, .p3 {
+	max-width: 200px;
+	border: 1px solid;
+}
+
+.topp, .toppp, .topppp {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.topp > div, .toppp > div, .topppp> div {
+	border: 1px solid;
+	text-align: center;
+	width: 20px;
+	margin-left: 73px;
+}
+
+.p1-wrap, .p2-wrap, .p3-wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.table-p1, .table-p2, .table-p3 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	/*justify-content: space-around;*/
+	margin-bottom: 5px;
+}
+
+.p1-null, .p2-null, .p3-null {
+	margin-left: 45px;
+    margin-right: 75px;
+    border: 1px solid;
+    width: 24px;
+	height: 24px;
+}
+
+.p1-one, .p2-one, .p3-one {
+	border: 1px solid;
+	width: 24px;
+	height: 24px;
+}
+
+.proj-wrap {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.table-matr-first {
+	margin: 20px auto;
+	padding-bottom: 10px;
+}
+
+.p1, .p2, .p3 {
+	margin: 30px auto;
+	padding-right: 10px;
+}
+.rezultclass {
+	display: none;
+}
+
+.perebroska-one, .perebroska-two, .perebroska-three, .perebroska-four {
+	display: block;
+	margin: 20px auto;
+	background: url('../img/forma_button.png') repeat-x top;
+    border-radius: 4px;
+    border: none;
+    color: #FFF;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.ok-sost {
+	background: url('../img/forma_button.png') repeat-x top;
+    border-radius: 4px;
+    border: none;
+    color: #FFF;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.col-sost {
+	border-radius: 4px;
+	border: 2px solid #edc07d;
+	padding: 10px;
+}
+
+.addclass {
+	display: block;
+   	margin: 20px auto;
+    background: url(../img/forma_button.png) repeat-x top;
+    border-radius: 4px;
+    border: none;
+    color: #FFF;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.table-matr-first .null {
+	margin-left: 62px;
+}
+
+.table-matr-first .one {
+	margin-left: 72px;
+}
+
+.colichsost {
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.p1-class {
+	width: 10px;
+	margin-left: 5px;
+}
+.p2-class {
+	min-width: 30px;
+	margin-left: 5px;
+}
+.p3-class {
+	min-width: 30px;
+	margin-left: 5px;
+}
+
+.p1-number {
+	margin-left: 5px;
+}
+.p2-number {
+	margin-left: 5px;
+}
+.p3-number {
+	margin-left: 5px;
+}
+
+.p2-null {
+	    margin-left: 20px;
+    margin-right: 63px;
+    width: 35px;
+}
+.p3-null {
+	    margin-left: 20px;
+    margin-right: 63px;
+    width: 35px;
+}
+.p2-one {
+	width: 35px;
+}
+
+.p3-one {
+	width: 35px;
+}
