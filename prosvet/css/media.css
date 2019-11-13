@@ -100,6 +100,10 @@
 	.who-img{
 		margin-bottom: 40px;
 	}
+
+	.who-txt h3 br {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1026px) {
@@ -195,18 +199,22 @@
 		-ms-flex-pack: distribute;
 		justify-content: space-around;
 	}
+	.header-main .header-form {
+		bottom:-65%;
+	}
 
 } 
 
 @media screen and (max-width: 645px) {
 	.header-main .header-form {
-		bottom:-75%;
+		bottom:-80%;
 		background: #7c7698 !important;
 	}
 
 	.consult {
 		margin-top: 318px;
 	}
+
 }
 
 @media screen and (max-width: 620px) {
@@ -234,6 +242,7 @@
 	}
 }
 
+
 @media screen and (max-width: 500px) {
 	.who-item .who-img img {
 		width: 100%;
@@ -260,6 +269,12 @@
 
 	.consult {
 		margin-top: 500px;
+	}
+}
+
+@media screen and (max-width: 469px) {
+	.icon-item {
+		margin-right: 0;
 	}
 }
 
@@ -299,6 +314,9 @@
 	.phone-wrap button {
 		margin-left: 0;
 	}
+	.logo-wrap .city {
+		margin-left: 0;
+	}
 
 } 
 
@@ -328,15 +346,15 @@
 @media screen and (max-width: 343px) {
 	/*.consult {
 		margin-top: 780px;
-	}*/
-}
-
-@media screen and (max-width: 320px) {
-	.header-main .header-form {
-		bottom: -80%;
+		}*/
 	}
 
-	.consult .wrapper {
-		margin-top: 400px;
+	@media screen and (max-width: 320px) {
+		.header-main .header-form {
+			bottom: -80%;
+		}
+
+		.consult .wrapper {
+			margin-top: 400px;
+		}
 	}
-}
