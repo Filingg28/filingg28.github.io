@@ -138,11 +138,13 @@
 	.main-icons {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
+		justify-content: space-around;
 	}
 
 	.icon-item{
 		margin-right: 20px;
 		margin-bottom: 20px;
+		text-align: center;
 	}
 
 	.header-main .header-form form input {
@@ -164,6 +166,12 @@
 	.consult h2 br {
 		display: none;
 	}
+
+	.main-icons img {
+		margin: 0 auto;
+	}
+
+
 }
 
 @media screen and (max-width: 800px) {
@@ -222,7 +230,7 @@
 }
 @media screen and (max-width: 529px) {
 	.consult {
-		margin-top: 458px;
+		margin-top: 400px;
 	}
 }
 
@@ -234,7 +242,7 @@
 
 @media screen and (max-width: 485px) {
 	.header-main .header-form {
-		bottom: -70%;
+		bottom: -74%;
 	}
 	.phone-wrap button {
 		padding: 15px 15px !important;
@@ -251,13 +259,13 @@
 	}
 
 	.consult {
-		margin-top: 558px;
+		margin-top: 500px;
 	}
 }
 
 @media screen and (max-width: 443px) {
 	.consult {
-		margin-top: 613px;
+		margin-top: 550px;
 	}
 }
 
@@ -267,9 +275,11 @@
 		flex-wrap: wrap;
 		-ms-flex-pack: distribute;
 		justify-content: space-around;
+		-ms-align-items: center;
+		align-items: center;
 	}
 	.phone-wrap a {
-		margin-bottom: 20px;
+		margin-right: 5px;
 	}
 
 	.logo-wrap {
@@ -283,8 +293,13 @@
 		margin-top: 20px;
 	}
 	.consult {
-		margin-top: 686px;
+		margin-top: 570px;
 	}
+
+	.phone-wrap button {
+		margin-left: 0;
+	}
+
 } 
 
 @media screen and (max-width: 400px) {
@@ -306,18 +321,22 @@
 
 @media screen and (max-width: 386px) {
 	.consult {
-		margin-top: 743px;
+		margin-top: 700px;
 	}
 }
 
 @media screen and (max-width: 343px) {
-	.consult {
+	/*.consult {
 		margin-top: 780px;
-	}
+	}*/
 }
 
 @media screen and (max-width: 320px) {
 	.header-main .header-form {
-		bottom: -72%;
+		bottom: -80%;
+	}
+
+	.consult .wrapper {
+		margin-top: 400px;
 	}
 }

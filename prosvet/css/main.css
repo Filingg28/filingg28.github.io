@@ -646,7 +646,6 @@ header .wrapper {
 .modal-wind-one, .modal-wind-two {
 	background: url('../img/modal-back.png') center no-repeat;
 	background-size: 100% 100%;
-	
 	max-width: 372px;
 	position: fixed;
 	top: 50%;
@@ -665,7 +664,7 @@ header .wrapper {
 }
 
 .modal-wind-one form, .modal-wind-two form {
-	padding: 38px 50px;
+	padding: 30px 50px;
 }
 
 .modal-wind-one p, .modal-wind-two p {
