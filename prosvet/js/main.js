@@ -18,4 +18,11 @@ $( document ).ready(function() {
 		$('.overlay').fadeIn(200);
 		$('.modal-wind-two').fadeIn(200);
 	});
+
+	 $(".main-menu ul").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 500);
+    });
 });

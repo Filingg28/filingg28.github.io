@@ -49,8 +49,8 @@
 				</div>
 				<div class="main-menu">
 					<ul>
-						<li><a href="#">О НАС</a></li>
-						<li><a href="#">НАШИ УСЛУГИ</a></li>
+						<li><a href="#cons">О НАС</a></li>
+						<li><a href="#who-cons">НАШИ УСЛУГИ</a></li>
 						<li><a href="#">КОНТАКТЫ</a></li>
 					</ul>
 				</div>
@@ -59,9 +59,9 @@
 					<p><span>Заполните форму</span> и получите доступ к бесплатному тесту, который определит тип Вашей личности и характера</p>
 					<form action="#" id="get-test">
 						<input type="hidden" name="testform" value="Форма - Получить тест">
-						<input type="text" name="name" placeholder="Ваше имя">
+						<input type="text" name="name" placeholder="Ваше имя" required>
 						<input type="text" name="email" placeholder="Ваш e-mail">
-						<input type="text" name="phone" placeholder="Ваш телефон">
+						<input type="text" name="phone" placeholder="Ваш телефон" required>
 						<button type="submit" value="Получить тест">Получить тест</button>
 					</form>
 				</div>
@@ -69,7 +69,7 @@
 		</div>
 	</header>
 	<!-- О компании -->
-	<div class="consult">
+	<div class="consult" id="cons">
 		<div class="wrapper">
 			<h2>Провели более 5000 психолгических консультаций <br> и наши клиенты обрели психологическое здоровье и радость жизни</h2>
 			<div class="consult-item-left consult-one">
@@ -147,7 +147,7 @@
 		</div>
 	</div>
 	<!-- Для кого подходит консультация -->
-	<div class="who">
+	<div class="who" id="who-cons">
 		<div class="wrapper">
 			<h2>Для кого подходит психологическая <br> консультация и какие задачи решает</h2>
 			<div class="who-item who-item-left who-one">
@@ -272,10 +272,10 @@
 			<h2>Заполните форму</h2>
 			<p>и наш менеджер перезвонит Вам в течении 15 мин, чтобы ответить на все вопрос</p>
 			<input type="hidden" name="callbackform" value="Форма - Перезвоните мне">
-			<input type="text" placeholder="Ваше имя" name="name">
+			<input type="text" placeholder="Ваше имя" name="name" required>
 
-			<input type="text" placeholder="Ваше e-mail" name="email">
-			<input type="text" placeholder="Ваше телефон" name="phone">
+			<input type="text" placeholder="Ваше e-mail" name="email" required>
+			<input type="text" placeholder="Ваше телефон" name="phone" required>
 			<button type="submit" value="Перезвонить">Перезвоните мне</button>
 			<div class="b-modal_close"></div>
 		</form>
@@ -286,9 +286,9 @@
 			<h2>Заполните форму</h2>
 			<p>чтобы узнать подробнее и наш специалист перезвонит Вам в течении 15 мин</p>
 			<input type="hidden" name="detalisform" value="Форма - Узнать подробнее">
-			<input type="text" placeholder="Ваше имя" name="name">
-			<input type="text" placeholder="Ваше e-mail" name="email">
-			<input type="text" placeholder="Ваше телефон" name="phone">
+			<input type="text" placeholder="Ваше имя" name="name" required>
+			<input type="text" placeholder="Ваше e-mail" name="email" required>
+			<input type="text" placeholder="Ваше телефон" name="phone" required>
 			<button type="submit" value="Узнать подробнее">Узнать подробнее</button>
 			<div class="b-modal_close"></div>
 		</form>
