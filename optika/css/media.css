@@ -1,0 +1,271 @@
+@media screen and (max-width: 1885px) {
+	.adv-woman {
+		display: none;
+	}
+	.product-block {
+		padding-top: 0;
+	}
+}
+
+@media screen and (max-width: 1403px){
+	.video-block:before, .video-block:after {
+		display: none;
+	}
+	.video-block {
+		margin-top: 150px;
+	}
+}
+
+@media screen and (max-width: 1188px) {
+	.wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.video-block .wrapper {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+	.video-info {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 1164px) {
+	.main-left:after {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1157px) {
+	.serv-item {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.serv-txt {
+		max-width: 100%;
+	} 
+
+	.serv-right .serv-img {
+		-webkit-box-ordinal-group:1;
+		-ms-flex-order:0;
+		order:0;
+	}
+	.serv-right .serv-txt {
+		-webkit-box-ordinal-group:2;
+		-ms-flex-order:1;
+		order:1;
+	}
+	.serv-img {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1093px) {
+	.last-adv {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.last-adv .adv-txt {
+		margin-left: 0;
+	}
+	.adv-item {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+
+	.adv-txt {
+		max-width: 100%;
+		width: 100%;
+	}
+	.adv-img {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.adv-two .adv-img {
+		-webkit-box-ordinal-group:1;
+		-ms-flex-order:0;
+		order:0;
+	}
+	.adv-two .adv-txt {
+		-webkit-box-ordinal-group:2;
+		-ms-flex-order:1;
+		order:1;
+	}
+} 
+
+@media screen and (max-width: 1070px) {
+
+}
+
+@media screen and (max-width: 1008px) {
+	.menu {
+		width: 155px;
+	}
+	.main {
+		max-width: auto;
+	} 
+}
+
+@media screen and (max-width: 962px) {
+	.slider-first .slick-next {
+		right: 40%;
+	}
+	.slider-first .slick-prev {
+		left: 40%;
+	}
+	.second-slider .slick-next {
+		right: 40%;
+	}
+	.second-slider .slick-prev {
+		left: 40%;
+	}
+	.aks-slider .slick-next {
+		right: 40%;
+	}
+	.aks-slider .slick-prev {
+		left: 40%;
+	}
+} 
+
+@media screen and (max-width: 912px) {
+	.last-adv p br {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 909px) {
+	.main .head-top {
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 871px) {
+	.video-wrap iframe {
+		max-width: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 806px) {
+	.menu {
+		display: none;
+	}
+	.main-left h1 {
+		font-size: 28px;
+	}
+	.logo {
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+}
+
+
+
+
+@media screen and (max-width: 642px) {
+	.adv-img {
+		width: 100%;
+	}
+	.adv-img img {
+		width: 100%;
+		display: block;
+	}
+
+	.about-block .wrapper {
+		padding-top: 30px;
+	}
+
+	.serv-item .serv-img img {
+		width: 100%;
+	}
+} 
+
+
+@media screen and (max-width: 636px) {
+	.logo p {
+		margin-left: 0;
+		text-align: center;
+	}
+	.top-about {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.main-left h1 {
+		margin-bottom: 30px;
+	}
+	.main-items .main-item {
+		margin-bottom: 30px;
+	}
+	.main {
+		margin-bottom: 57px;
+	}
+	.main-items .main-item p br {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 536px) {
+	.video-info span {
+		font-size: 40px;
+	}
+	.video-info p {
+		font-size: 36px;
+	}
+} 
+
+@media screen and (max-width: 512px) {
+	.slider-first .slick-next, .second-slider .slick-next, .aks-slider .slick-next {
+		right: 30%;
+	}
+	.slider-first .slick-prev, .second-slider .slick-prev, .aks-slider .slick-prev {
+		left: 30%;
+	}
+}
+
+@media screen and (max-width: 438px) {
+	.main-left h1 {
+		font-size: 24px;
+	}
+	.main-left button {
+		display: block;
+		margin: 0 auto;
+		padding: 27px 35px;
+	}
+}
+
+@media screen and (max-width: 438px) {
+	.aks-bg {
+		width: 100%;
+		padding-bottom: 20px;
+
+	}
+}
+
+
+@media screen and (max-width: 343px) {
+	.aks-bg {
+		padding-top: 220px;
+	}
+
+	.aks-item button {
+		padding: 27px 35px;
+	}
+}
