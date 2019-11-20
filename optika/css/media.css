@@ -7,6 +7,12 @@
 	}
 }
 
+@media screen and (max-width: 1640px) {
+	.cert .sert-block:after {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 1403px){
 	.video-block:before, .video-block:after {
 		display: none;
@@ -30,6 +36,12 @@
 	}
 	.video-info {
 		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 1179px) {
+	.cert .sert-block img {
+		display: none;
 	}
 }
 
@@ -62,6 +74,17 @@
 	}
 	.serv-img {
 		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1171px) {
+	.foot-wrap {
+		-ms-flex-wrap:wrap;
+		    flex-wrap:wrap;
+	}
+
+	.footer-left {
+		margin-bottom: 60px;
 	}
 }
 
@@ -102,8 +125,23 @@
 	}
 } 
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1082px) {
+	.footer-map {
+		margin: 0 auto;
+	}
+}
 
+@media screen and (max-width: 1055px) {
+	.rev-txt {
+		max-width: 100%;
+	}
+	.review-slider .slick-prev, .review-slider .slick-next {
+		top: 400px;
+	}
+
+	.review-slider .slick-dots {
+		display: none !important;
+	}
 }
 
 @media screen and (max-width: 1008px) {
@@ -134,6 +172,14 @@
 	.aks-slider .slick-prev {
 		left: 40%;
 	}
+
+	.reviews .wrapper h2 {
+		margin-bottom: 60px;
+	}
+
+	.reviews .wrapper {
+		padding-top: 70px;
+	}
 } 
 
 @media screen and (max-width: 912px) {
@@ -150,15 +196,38 @@
 		-ms-flex-pack: distribute;
 		justify-content: space-around;
 	}
+
+	.cert .sert-block {
+		padding: 35px;
+	}
 }
 
 @media screen and (max-width: 871px) {
 	.video-wrap iframe {
 		max-width: 100%;
 	}
+
+	.reviews h2 br {	
+		display: none;
+	}
 }
 
+@media screen and (max-width: 831px) {
+	.footer-info {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+	}
 
+	.footer-map  {
+		width: 100%;
+	}
+
+	.footer-map iframe {
+		width: 100%;
+	}
+}
 
 @media screen and (max-width: 806px) {
 	.menu {
@@ -219,8 +288,40 @@
 	.main-items .main-item p br {
 		display: none;
 	}
+
+	.blue-wrap {
+		background: #0282dc;
+		height: auto;
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+}	
+
+
+@media screen and (max-width: 577px) {
+	.sert-block .big {
+		font-size: 34px;
+	}
+
+	.sert-block p br {
+		display: none;
+	}
+
+	.cert .sert-block {
+		padding: 15px;
+	}
+
+	.cert .wrapper {
+		padding-top: 40px;
+	}
 }
 
+@media screen and (max-width: 561px) {
+	.politika {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
 
 @media screen and (max-width: 536px) {
 	.video-info span {
@@ -228,6 +329,15 @@
 	}
 	.video-info p {
 		font-size: 36px;
+	}
+	
+	.review-slider .slick-prev, .review-slider .slick-next {
+		top: auto !important;
+		bottom: -120px;
+	}
+
+	.review-slider .slick-dots {
+		display: none;
 	}
 } 
 
@@ -237,6 +347,14 @@
 	}
 	.slider-first .slick-prev, .second-slider .slick-prev, .aks-slider .slick-prev {
 		left: 30%;
+	}
+
+	.modal-wind-one {
+		padding: 25px;
+	}
+
+	.modal-wind-one button {
+		padding: 27px 25px;
 	}
 }
 

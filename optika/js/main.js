@@ -91,4 +91,33 @@ $( document ).ready(function() {
 			
 		]
 	});
+
+	$('.review-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: true,
+		dots: true
+	});
+
+	$('.triger-form').on( "click", function() {
+		$('.overlay').fadeIn(200);
+		$('.modal-wind-one').fadeIn(200);
+	});
+
+	$('.overlay').on( "click", function() {
+		$('.overlay').fadeOut(200);
+		$('.modal-wind-one').fadeOut(200);
+	});
+	$('.b-modal_close').on( "click", function() {
+		$('.overlay').fadeOut(200);
+		$('.modal-wind-one').fadeOut(200);
+	});
+
+	 $(".menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 500);
+    });
+	
 });
